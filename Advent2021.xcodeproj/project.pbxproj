@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		021554282758192B008BCC42 /* Advent2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Advent2021; sourceTree = BUILT_PRODUCTS_DIR; };
 		0215542B2758192B008BCC42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		02155433275819B5008BCC42 /* day0_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day0_input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		0215541F2758192B008BCC42 = {
 			isa = PBXGroup;
 			children = (
+				02155433275819B5008BCC42 /* day0_input.txt */,
 				0215542A2758192B008BCC42 /* Advent2021 */,
 				021554292758192B008BCC42 /* Products */,
 			);
