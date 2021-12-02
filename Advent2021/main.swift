@@ -10,7 +10,8 @@ import Foundation
 //try day1a()   // 1400
 //try day1b()   // 1429
 //try day1()
-try day2()
+//try day2()
+try day3()
 
 // ----
 
