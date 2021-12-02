@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0215542C2758192B008BCC42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215542B2758192B008BCC42 /* main.swift */; };
+		026308AC27582BB5004CD523 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308AB27582BB5004CD523 /* Day1.swift */; };
+		026308B427583EAD004CD523 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308B327583EAD004CD523 /* Day2.swift */; };
+		026308B92758420E004CD523 /* StreamScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308B82758420E004CD523 /* StreamScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +29,11 @@
 		021554282758192B008BCC42 /* Advent2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Advent2021; sourceTree = BUILT_PRODUCTS_DIR; };
 		0215542B2758192B008BCC42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02155433275819B5008BCC42 /* day0_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day0_input.txt; sourceTree = "<group>"; };
+		026308A927581DE6004CD523 /* day1_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day1_input.txt; sourceTree = "<group>"; };
+		026308AB27582BB5004CD523 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		026308B327583EAD004CD523 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		026308B627583F1B004CD523 /* day2_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day2_input.txt; sourceTree = "<group>"; };
+		026308B82758420E004CD523 /* StreamScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamScanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		0215541F2758192B008BCC42 = {
 			isa = PBXGroup;
 			children = (
+				026308A927581DE6004CD523 /* day1_input.txt */,
+				026308B627583F1B004CD523 /* day2_input.txt */,
 				02155433275819B5008BCC42 /* day0_input.txt */,
 				0215542A2758192B008BCC42 /* Advent2021 */,
 				021554292758192B008BCC42 /* Products */,
@@ -60,6 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				0215542B2758192B008BCC42 /* main.swift */,
+				026308AB27582BB5004CD523 /* Day1.swift */,
+				026308B327583EAD004CD523 /* Day2.swift */,
+				026308B82758420E004CD523 /* StreamScanner.swift */,
 			);
 			path = Advent2021;
 			sourceTree = "<group>";
@@ -121,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026308B92758420E004CD523 /* StreamScanner.swift in Sources */,
+				026308AC27582BB5004CD523 /* Day1.swift in Sources */,
+				026308B427583EAD004CD523 /* Day2.swift in Sources */,
 				0215542C2758192B008BCC42 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

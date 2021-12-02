@@ -7,49 +7,48 @@
 
 import Foundation
 
-try day0()
+//try day1a()   // 1400
+//try day1b()   // 1429
 //try day1()
+try day2()
+
 // ----
-func day1() throws -> Void {
-    print("day1")
+
+func projectDir() -> String {
+    let homeDirURL = URL(fileURLWithPath: NSHomeDirectory())
+    return homeDirURL.appendingPathComponent("xcode-projects/Advent2021").path
 }
 
-func day0() throws -> Void {
-    print("day0")
-    
-    let filePath = "/Users/trpht39/xcode-projects/Advent2021/day0_input.txt"
-    let fileUrl = URL(fileURLWithPath: filePath);
 
-    let contents = try String(contentsOf: fileUrl, encoding: .utf8)
-    
-    // enumerate all lines into int array
+func textToIntArray(data: String) -> [Int] {
+    // enumerate all lines into Int array
     var nr = 0;
-    var depths:[Int] = []
+    var intArray:[Int] = []
     //var array:[String] = []//If your array is string type
-    contents.enumerateLines(invoking: { (line, stop) -> () in
+    data.enumerateLines(invoking: { (line, stop) -> () in
         //print("Line = \(line)")
         let x = Int(line) ?? 0
-        depths.append(x)
+        intArray.append(x)
         //print("nr \(nr) => \(x)")
         nr+=1;
     })
     
-    print("depths \(depths)")
-    
-    var previous = depths[0]
-    var largerThanPrevCount = 0
-    for i in 1 ..< depths.count {
-        if previous < depths[i] {
-            print("depth [\(i)]: \(depths[i]) (increased)")
-            largerThanPrevCount += 1
-        } else if previous > depths[i] {
-            print("depth [\(i)]: \(depths[i]) decreased")
-        } else {
-            print("depth [\(i)]: \(depths[i]) <no change>")
-        }
-        
-        previous = depths[i]
-    }
-    print("largerThanPrevCount \(largerThanPrevCount)")
+    //print("intArray \(intArray)")
+    return intArray
 }
 
+
+// Some great file reading examples:
+// https://stackoverflow.com/questions/24097826/read-and-write-a-string-from-text-file
+
+func fileToString(filePath: String) throws -> String {
+    let fileUrl = URL(fileURLWithPath: filePath);
+    do {
+        // Read the file contents
+        let contents = try String(contentsOf: fileUrl)
+        return contents
+    } catch let error as NSError {
+        print("Failed reading from URL: \(fileUrl), Error: " + error.localizedDescription)
+        throw error
+    }
+}
