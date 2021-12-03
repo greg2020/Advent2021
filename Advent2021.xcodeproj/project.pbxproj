@@ -38,6 +38,7 @@
 		026308BB27591251004CD523 /* day2_input_q.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day2_input_q.txt; sourceTree = "<group>"; };
 		026308BD27592D65004CD523 /* day3_input_q.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3_input_q.txt; sourceTree = "<group>"; };
 		026308BE27592D8E004CD523 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		026308C1275A7DFC004CD523 /* day3_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3_input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		0215541F2758192B008BCC42 = {
 			isa = PBXGroup;
 			children = (
+				026308C1275A7DFC004CD523 /* day3_input.txt */,
 				026308BD27592D65004CD523 /* day3_input_q.txt */,
 				026308BB27591251004CD523 /* day2_input_q.txt */,
 				026308A927581DE6004CD523 /* day1_input.txt */,
