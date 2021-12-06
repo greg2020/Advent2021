@@ -12,6 +12,8 @@
 		026308B427583EAD004CD523 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308B327583EAD004CD523 /* Day2.swift */; };
 		026308B92758420E004CD523 /* StreamScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308B82758420E004CD523 /* StreamScanner.swift */; };
 		026308BF27592D8F004CD523 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308BE27592D8E004CD523 /* Day3.swift */; };
+		026308C6275D988F004CD523 /* Day4b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308C5275D988F004CD523 /* Day4b.swift */; };
+		026308CB275E6850004CD523 /* File4a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026308CA275E6850004CD523 /* File4a.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,10 @@
 		026308BD27592D65004CD523 /* day3_input_q.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3_input_q.txt; sourceTree = "<group>"; };
 		026308BE27592D8E004CD523 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		026308C1275A7DFC004CD523 /* day3_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3_input.txt; sourceTree = "<group>"; };
+		026308C3275D9828004CD523 /* day4_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day4_input.txt; sourceTree = "<group>"; };
+		026308C4275D9859004CD523 /* day4_input_q.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day4_input_q.txt; sourceTree = "<group>"; };
+		026308C5275D988F004CD523 /* Day4b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4b.swift; sourceTree = "<group>"; };
+		026308CA275E6850004CD523 /* File4a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File4a.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 		0215541F2758192B008BCC42 = {
 			isa = PBXGroup;
 			children = (
+				026308C4275D9859004CD523 /* day4_input_q.txt */,
+				026308C3275D9828004CD523 /* day4_input.txt */,
 				026308C1275A7DFC004CD523 /* day3_input.txt */,
 				026308BD27592D65004CD523 /* day3_input_q.txt */,
 				026308BB27591251004CD523 /* day2_input_q.txt */,
@@ -82,6 +90,8 @@
 				026308AB27582BB5004CD523 /* Day1.swift */,
 				026308B327583EAD004CD523 /* Day2.swift */,
 				026308B82758420E004CD523 /* StreamScanner.swift */,
+				026308C5275D988F004CD523 /* Day4b.swift */,
+				026308CA275E6850004CD523 /* File4a.swift */,
 			);
 			path = Advent2021;
 			sourceTree = "<group>";
@@ -144,9 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				026308B92758420E004CD523 /* StreamScanner.swift in Sources */,
+				026308C6275D988F004CD523 /* Day4b.swift in Sources */,
 				026308BF27592D8F004CD523 /* Day3.swift in Sources */,
 				026308AC27582BB5004CD523 /* Day1.swift in Sources */,
 				026308B427583EAD004CD523 /* Day2.swift in Sources */,
+				026308CB275E6850004CD523 /* File4a.swift in Sources */,
 				0215542C2758192B008BCC42 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

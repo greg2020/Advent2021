@@ -20,7 +20,7 @@ func day3b() throws -> Void {
     print("inputFilePath = \(inputFilePath)")
     let fileText = try fileToString(filePath: inputFilePath)
     print("=== input file text ===")
-    //print(fileText)
+    print(fileText)
     print("=======================")
     let arr:[String] = fileText
         .split(separator: "\n")
